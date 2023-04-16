@@ -11,7 +11,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	err = cli.Register("bc-good", "127.0.0.1", 8060, 3)
+	err = cli.Register("/server/cc-etcd", "127.0.0.1", 9085, 3)
 	if err != nil {
 		log.Fatal(err)
 	}
